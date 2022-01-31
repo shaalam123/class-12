@@ -1,0 +1,402 @@
+/* Common css start */
+*{
+    padding:0;
+    outline:o;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.sec_ttl h2{
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+    text-transform: uppercase;
+   
+}
+
+.sec_ttl p{
+    font-size: 16px;
+    color: #7e8287;
+    margin: auto;
+    line-height: 41px;
+   
+}
+
+.sec_ttl span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+/* // Common css end */
+
+/* nav section css start */
+nav{
+    background-color: #02918c;
+}
+
+nav > .container > .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 25%;
+   
+}
+
+nav .logo img{
+    display: block;
+}
+
+nav .menu{
+    width: 75%;
+    text-align: right;
+    
+}
+
+nav .menu ul li{
+    display: inline-block;
+    margin: 12px 0;
+}
+nav .menu ul li a {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 25px;
+	transition: all 0.4s linear;
+	border-radius: 25px;
+	
+}
+    
+
+
+nav .menu ul li:hover a{
+    background-Color: #cfc91d;
+}
+
+/* // nav section css end */
+
+/* Banner section css start */
+#banner{
+    height: 728px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after{
+    content: '' ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.66);
+    top: 0;
+    left: 0;
+    z-index: -1;
+ 
+
+} 
+
+#banner .container,
+#banner .container  .row{
+    height: 100%;
+}
+
+#banner .container > .row{
+    align-items: center;
+}
+
+#banner .banner_content{
+    width: 100%;
+}
+
+#banner .banner_content h6{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 24px;
+    
+}
+
+#banner .banner_content h1{
+    font-size: 68px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#banner .banner_content p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+#banner .banner_content img{
+    display: block;
+    margin: auto;
+    padding-top: 25px; 
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#banner .banner_content a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding: 10px 45px;
+}
+
+/* // Banner section css end */
+
+/* About Section Start */
+#about{
+    padding: 86px 0;
+}
+
+#about .sec_ttl p{
+    width: 874px;
+}
+
+#about .about_item{
+    width: 25%;
+    border-right: 1px solid #5e6767;
+    padding: 37px 65px;
+    margin-top: 80px;
+    font-size: 11px;
+    line-height: 21px;
+    color: #7e8287;
+}
+
+#about .about_item h5{
+    font-size: 16px;
+    color: #7e8287;
+    padding: 29px 0;
+}
+
+#about .about_item:last-child{
+    border-color: transparent;
+}
+
+
+/* //About Section Start */
+
+/* Services css strat */
+
+#services{
+    background: #f0f0e8 url(../img/Overlay-out.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: right center;
+    position: relative;
+    padding-top: 52px;
+}
+
+#services::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(240, 240, 232, .7);
+}
+
+#services .service_contain{
+    width: 50%;
+}
+
+#services .sec_ttl{
+    padding-bottom: 60px;;
+}
+
+#services .sec_ttl p{
+    font-size: 16px;
+    margin-left: 0;
+    line-height: 41px;
+   
+}
+
+
+#services .service_item_container .service_item{
+    width: 50%;
+    
+ 
+}
+
+
+#services .service_item_container h5{
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 19px;
+    color: #7e8287;
+}
+
+#services .service_item_container  p{
+    font-size: 11px;
+    margin-right: 102px;
+    padding-top: 23px;
+    padding-bottom: 53px;
+    line-height: 21px;
+    color: #7e8287;
+    
+   
+}
+
+/* //Services css end */
+
+/* My work css start */
+#my_work{
+    padding-top: 75px;
+}
+
+#my_work .container{
+    padding-bottom: 78px;
+}
+#my_work .sec_ttl p{
+    width: 676px;    
+}
+
+#my_work .work_item{
+    width: 25%;
+    position: relative;
+}
+
+#my_work .work_item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#my_work .work_item .overlay{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 27px;
+    bottom: 27px;
+    background-color: rgba(39, 161, 156, .85);
+    padding: 53px 38px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+
+}
+
+#my_work .work_item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+#my_work .work_item h5{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 800;
+    padding-bottom: 18px;
+    color: #fff;
+}
+
+#my_work .work_item p{
+    font-size: 13px;
+    line-height: 21px;
+    color: #fff;
+}
+/* //My work css end */
+
+/*Contact Section start */
+
+#contact  >.container{
+    padding: 77px 0 70px;
+}
+#contact .sec_ttl p{
+    width: 674px;
+}
+
+#contact .contact_form{
+    background-color: #0b0b0b;
+    padding: 50px 0 42px;
+}
+
+#contact .contact_form input,
+#contact .contact_form textarea{
+    display: block;
+    background: none;
+    border: none;
+    margin: auto;
+    color: #7e8287;
+    font-size: 16px;;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #898989;
+    padding: 14px;
+    margin-bottom: 50px;;
+}
+
+#contact .contact_form textarea{
+    resize: none;
+}
+
+#contact .contact_form input{
+    width: 637px;
+}
+
+#contact .contact_form input:nth-child(3),
+#contact .contact_form textarea{
+    width: 917px;
+}
+
+#contact .contact_form input[type="submit"]{
+    background-color: #cfc91d;
+    width: 196px;
+    margin-bottom: 0;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: #0b0b0b;
+}
+
+#footer{
+    color: #7e8287;
+}
+
+/* //Contact Section end */
